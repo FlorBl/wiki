@@ -1,11 +1,11 @@
 {% extends "encyclopedia/layout.html" %} {% block title %} {{ title }} {% endblock %} {% block body %}
+
 <a href="{% url 'edit' title=title %}">Edit Page</a>
 <div id="content">
 {{ entry|safe }}
 </div>
 <div id="editor"></div>
 <button id="cmd" class="btn btn-success" >Download as PDF</button>
-
 
 <script>
 var doc = new jsPDF();
