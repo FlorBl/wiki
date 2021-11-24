@@ -13,7 +13,7 @@ code {
 }
 
 h3 {
-    margin-top: 0px;
+
     padding-top: 20px;
 }
 
@@ -60,9 +60,23 @@ input {
 }
 
 
+/* NavBar ------------------------ */
+#navbar{
+    display: none;
+}
 
 @media only screen and (max-width: 545px) {
-    body{
-        
-    }
+#navbar{
+    display: block;
 }
+.sidebar{
+    display: none;
+}
+.main{
+    margin-left:15px;
+}
+#content{
+    width: 90vw;
+}
+}
+
