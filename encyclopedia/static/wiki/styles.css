@@ -69,6 +69,9 @@ input {
 #navbar{
     display: block;
 }
+#navbar_div{
+    background-color: rgb(234,236,240) !important;
+}
 .sidebar{
     display: none;
 }
@@ -77,6 +80,13 @@ input {
 }
 #content{
     width: 90vw;
+}
+#createPage{
+    width: 90vw;
+}
+#home{
+    width: 90vw;
+    margin-top: 20px;
 }
 }
 

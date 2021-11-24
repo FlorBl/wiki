@@ -1,11 +1,12 @@
 {% extends "encyclopedia/layout.html" %} {% block title %} Encyclopedia 
 {% endblock %} {% block body %}
 
-<h4>Encyclopedia</h4>
+<div id="home">
+<h4>Wiki</h4>
 <p>
 This website is Wikipedia-like online encyclopedia where users can search, write and edit an article!
 Users can also access random articles with different topics and download them as PDF documents.
 By reading Github's Markdown method, located in <a href="{% url 'create' %}">Create New Article</a>, the reader can edit the text, it's font family, size and style! </p>
 
-
+</div>
 {% endblock %}

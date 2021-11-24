@@ -12,6 +12,7 @@
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
         <script type="text/javascript" src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/493ea5c692.js" crossorigin="anonymous"></script>   
     <link href="{% static 'wiki/styles.css' %}" rel="stylesheet" />
 
 
@@ -19,8 +20,8 @@
     <body>
     <!-- For smaller devices-->
 <div id="navbar">
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="{% url 'home' %}">Wiki</a>
+<nav id="navbar_div" class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="{% url 'home' %}">Wiki   <i class="fas fa-globe-americas"></i></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
